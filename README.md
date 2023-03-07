@@ -16,6 +16,9 @@ ao usuário corretamente logado registrar transações financeiras, bem como man
 
 # Componentes do Projeto :
 
+O projeto é composto por três Pages (RegisterUser / SignIn / Main), cada qual com suas funcionalidades:
+
+
 ![](https://imgur.com/m4vfUfO.png)
 
 ![](https://imgur.com/VU1Aywo.png)
