@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Projeto-DinDin - Aplicação integrada Frontend/Backend com React
+# Projeto-DinDin - Aplicação integrada Frontend/Backend w/React
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=GREEN&style=for-the-badge"/>
