@@ -11,3 +11,19 @@
 
 A aplicação consiste em simular transações financeiras, utilizando os controladores e endpoints fornecidos pela API para permitir
 ao usuário corretamente logado registrar transações financeiras, bem como manipulá-las utilizando as rotas fornecidas.
+
+
+
+# Componentes do Projeto :
+
+![](https://imgur.com/m4vfUfO.png)
+
+![](https://imgur.com/VU1Aywo.png)
+
+
+
+# Pessoas Desenvolvedoras do Projeto :
+
+
+
+
