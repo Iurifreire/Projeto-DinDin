@@ -1,0 +1,123 @@
+.container-modal {
+    z-index: 9999;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+
+    inset: 0;
+
+    background: rgba(61, 61, 61, 0.48);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.close-modal-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+
+
+    margin-left: 70px;
+    width: 26.58px;
+    height: 26.38px;
+}
+
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+
+    padding: 24px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+
+.modal-body span {
+
+    display: block;
+}
+
+
+.register-buttons {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+
+    height: 58px;
+}
+
+
+.disable-button {
+    margin-top: 10px;
+    width: 100%;
+
+    border-radius: 10px;
+
+    color: #FFFFFF;
+    background-color: #B9B9B9;
+
+    border: none;
+}
+
+
+.flow-in-button {
+
+    background-color: #3A9FF1;
+}
+
+
+.flow-out-button {
+    background-color: #FF576B;
+}
+
+
+.confirm-button {
+
+    background-color: #7978D9;
+    border-radius: 5px;
+    width: 236px;
+    margin: 0 auto;
+    padding: 16px;
+    border: none;
+
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.form-modal {
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+}
+
+
+.modal input {
+
+    width: 485px;
+    height: 63.49px;
+
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 5px;
+}
+
+.modal select {
+    width: 485px;
+    height: 63px;
+
+    border: 1px solid #555555;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}

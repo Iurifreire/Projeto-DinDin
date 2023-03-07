@@ -1,0 +1,115 @@
+.container-RegisterUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100vh;
+  
+  background-image: url('../../assets/backgroundImage.svg');
+}
+
+.container-logo{
+  position: absolute;
+  left: 105px;
+  top: 46px;
+}
+
+.container-logo img {
+  height: 42px;
+}
+
+.container-Register {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  
+  width: 450px;
+  height: 650px;
+  
+  background-color: #ffffff;
+}
+
+.Register-tittle {
+  margin-top: 50px;
+  margin-bottom: 46px;
+
+  font-family: 'Rubik';
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 33px;
+
+  color: #7978D9;
+}
+
+.container-Register form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.input-tittle {
+  margin-bottom: 10px;
+  
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  
+  color: #484848;
+}
+
+input {
+  width: 380px;
+  height: 43px;
+  margin-bottom: 20px;
+
+  border: 1px solid #555555;
+  border-radius: 5px;
+  
+  background: #FFFFFF;
+}
+
+
+.btn-Register {
+  width: 380px;
+  height: 43px;
+  margin-top: 20px;
+  
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  background: #7978D9;
+  color: #ffffff;
+}
+
+.span-navigate {
+  margin-top: 10px;
+  margin-left: 100px;
+  
+  text-decoration: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  
+  color: #7B61FF;
+}
+
+.navigate-link {
+  text-decoration: none;
+  text-decoration: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  
+  color: #7B61FF;
+}

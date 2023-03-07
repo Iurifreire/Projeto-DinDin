@@ -1,0 +1,42 @@
+header {
+    height: 140px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 25px 100px;
+
+    background: linear-gradient(to right top, #05EDE3, #645FFB);
+
+}
+
+.profile-text {
+    width: 44px;
+    height: 17px;
+    left: 1258px;
+    top: 53px;
+    padding-right: 90px;
+
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+.header-content {
+    width: 150px;
+    gap: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content img {
+    cursor: pointer;
+}
+
+.header-content img:hover {
+    transform: scale(1.2);
+}

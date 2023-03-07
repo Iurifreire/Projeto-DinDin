@@ -1,0 +1,68 @@
+.delete-registry-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 5px;
+    
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    width: 111px;
+    height: 46px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+
+    background: #E4F2FD;
+    border-radius: 4px;
+}
+
+.registry-buttons {
+    display: flex;
+    align-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    height: 20px;
+}
+
+.registry-buttons .delete-yes {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    margin-right: 8px;
+    padding: 10px;
+    
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+    
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #3A9FF1;
+
+}
+
+.registry-buttons .delete-no {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    padding: 10px;
+    
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+    
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #FF576B;
+}
