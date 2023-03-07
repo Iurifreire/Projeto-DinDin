@@ -20,12 +20,29 @@ O projeto é composto por três Pages (RegisterUser / SignIn / Main), cada qual 
 
 
 ![](https://imgur.com/m4vfUfO.png)
+`RegisterUser:` O usuário, utilizando a rota `post('usario')`, cadastra um objeto contendo nome, email e senha válidos.
+As validações acontecem no middleware genérico presente na API.
+
 
 ![](https://imgur.com/VU1Aywo.png)
+`SignIn:` Ao acessar a rota `post('login')` com usuário válido, é gerado um Token, guardado no localStorage, o qual 
+permite acesso ao restante das aplicações.
+
+
+![](https://imgur.com/I7Mh8aU.png)
+`Main:`
+
+
+![](https://imgur.com/X6c1i27.png)
+`DeleteRegistryModal:`
+
+
+![](https://imgur.com/iQuZFjf.png)
+`ModalProfile:`
 
 
 
-# Pessoas Desenvolvedoras do Projeto :
+
 
 
 
