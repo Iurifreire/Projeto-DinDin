@@ -30,15 +30,22 @@ permite acesso ao restante das aplicações.
 
 
 ![](https://imgur.com/I7Mh8aU.png)
-`Main:`
+`Main:` Ao acessar a Main, o usuário logado poderá registrar transações, escolhendo o tipo ('entrada'/'saida'), categoria,
+data e valores.
 
 
 ![](https://imgur.com/X6c1i27.png)
-`DeleteRegistryModal:`
+`DeleteRegistryModal:` Ao selecionar a 'img/Trash', o componente de Modal para deletar transações via .id será aberto, de forma
+dinâmica, respeitando a ordenação da tabela. 
 
 
 ![](https://imgur.com/iQuZFjf.png)
-`ModalProfile:`
+`ModalProfile:` Ao selecionar a 'img/Profile', o componente de Modal para atualizar as informações do usuário logado será aberto. 
+Ao ser acionado, ele coleta os inputs do usuário logado. Ao alterar as informações desejadas, um `put('usuário)` será para alterar seus dados.
+
+
+
+
 
 
 
